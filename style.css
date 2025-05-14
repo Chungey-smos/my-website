@@ -1,0 +1,70 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 600px;
+    margin: 20px auto; /* Added some top/bottom margin for better spacing */
+    padding: 25px; /* Slightly increased padding */
+    background-color: #f4f8f9; /* Light, soft background */
+  }
+  .container {
+    background: #ffffff; /* Clean white container */
+    padding: 25px; /* Increased padding inside the container */
+    border-radius: 8px; /* Slightly more rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08); /* Softer shadow */
+    border: 1px solid #e0e0e0; /* Subtle border */
+  }
+  .form-group {
+    margin-bottom: 20px; /* Increased spacing between form groups */
+  }
+  label {
+    display: block;
+    margin-bottom: 8px; /* Slightly more space below the label */
+    font-weight: 600; /* Semi-bold font weight */
+    color: #333; /* Darker text for better readability */
+  }
+  input[type="number"] {
+    width: 100%;
+    padding: 10px; /* Increased padding for better touch target */
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Slightly darker border */
+    border-radius: 6px; /* Slightly more rounded input */
+    font-size: 16px; /* Slightly larger font size */
+  }
+  button {
+    background: #007bff; /* A more vibrant blue */
+    color: white;
+    border: none;
+    padding: 12px 20px; /* Increased padding */
+    cursor: pointer;
+    border-radius: 6px; /* Slightly more rounded button */
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+  button:hover {
+    background: #ff00ea; /* Darker shade on hover */
+  }
+  .error {
+    color: #dc3545; /* Standard error red */
+    margin-bottom: 20px; /* Increased spacing */
+    padding: 12px; /* Increased padding */
+    background: #fdecea; /* Light red background */
+    border-radius: 6px;
+    border: 1px solid #e74c3c; /* Slightly darker red border */
+  }
+  .result {
+    margin-top: 25px; /* Increased spacing */
+    background: #e6ffe9; /* Light green background */
+    padding: 18px; /* Increased padding */
+    border-radius: 6px;
+    border: 1px solid #bcf709; /* Green border */
+  }
+  h1 {
+    color: #34495e; /* Darker heading color */
+    margin-top: 0;
+    font-size: 24px; /* Slightly larger heading */
+    text-align: center;
+    margin-bottom: 20px; /* Added some bottom margin */
+  }
+  p {
+    color: #555; /* Slightly darker paragraph text */
+    line-height: 1.6; /* Improved line height for readability */
+  }
